@@ -1,0 +1,6 @@
+ 
+db.sqlite3
+env_vars.py
+posts.json
+__pycache__
+*.pyc
