@@ -7,3 +7,4 @@ In this Django blog project, users need to register first and log in. Only after
 #python
 #python_frame_work
 #blog
+#django_blog
