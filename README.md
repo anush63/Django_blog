@@ -9,7 +9,6 @@ In this Django blog project, users need to register first and log in. Only after
 #blog
 #django_blog
 
-![Screenshot 2024-09-10 130905](https://github.com/user-attachments/assets/2701b077-7e1f-49b9-b021-685ffc5ea3d8)
-![Screenshot 2024-09-10 130956](https://github.com/user-attachments/assets/d98e40b0-4cfb-4852-a34e-05d2acf761e3)
-![Screenshot 2024-09-10 131034](https://github.com/user-attachments/assets/b663be1d-8f2d-4d83-8c0b-1a720ea7f983)
-
+![Screenshot 2024-09-10 130956](https://github.com/user-attachments/assets/94cb31fc-0462-4b41-8a0c-53d325efc74e)
+![Screenshot 2024-09-10 131034](https://github.com/user-attachments/assets/41d01f2a-b510-4923-80a1-19eda7dac6d0)
+![Screenshot 2024-09-10 130905](https://github.com/user-attachments/assets/a8686c2a-4944-48c4-a2ed-cdd6b20f5f53)
