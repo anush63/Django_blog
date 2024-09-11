@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "995507e7-ffed-4aba-b914-bc787f45bc85",
+		"name": "Django_project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38068728"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "schema",
+					"item": [
+						{
+							"name": "api schema retrieve",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "sessionid",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "{{apiKey}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "header",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/vnd.oai.openapi"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/schema/?format=json&lang=en",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"schema",
+										""
+									],
+									"query": [
+										{
+											"key": "format",
+											"value": "json"
+										},
+										{
+											"key": "lang",
+											"value": "en"
+										}
+									]
+								},
+								"description": "OpenApi3 schema for this API. Format can be selected via content negotiation.\n\n- YAML: application/vnd.oai.openapi\n- JSON: application/vnd.oai.openapi+json"
+							},
+							"response": [
+								{
+									"name": "Untitled Response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/vnd.oai.openapi"
+											},
+											{
+												"key": "sessionid",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/api/schema/?format=json&lang=en",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"schema",
+												""
+											],
+											"query": [
+												{
+													"key": "format",
+													"value": "json"
+												},
+												{
+													"key": "lang",
+													"value": "en"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"in4ad\": {}\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
